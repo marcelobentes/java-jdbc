@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class SingleConnection {
 	
 	private static String url = "jdbc:postgresql://localhost:5432/posjava";
-	private static String passawd = "mclmaia";
+	private static String passawd = "";
 	private static String user = "admin";
 	private static Connection connection = null;
 	
